@@ -1,0 +1,6 @@
+github "SnapKit/SnapKit" ~> 4.0.0
+github "3lvis/Networking" ~> 4.4
+github "onevcat/Kingfisher" ~> 5.0
+github "alibaba/HandyJSON" ~> 4.2.0
+github "nmdias/FeedKit" ~> 8.0
+github "SwiftKickMobile/SwiftMessages"
