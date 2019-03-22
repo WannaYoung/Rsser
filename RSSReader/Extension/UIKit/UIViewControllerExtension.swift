@@ -12,7 +12,7 @@ extension UIViewController {
     
     func showAlertWith(style: UIAlertController.Style, title: String, message: String, actionTitles: [String],destructIndex: Int = 100, hasCancel: Bool, selectAction:@escaping (_ buttonIndex:Int) -> Void, cancelAction: (() -> Void)? = nil) {
         let alertController = UIAlertController(title: title == "" ? nil : title, message:  message == "" ? nil : message, preferredStyle: style)
-        let cancelAction = UIAlertAction(title: "CANCEL", style: .cancel, handler:{
+        let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler:{
             (UIAlertAction) -> Void in
             cancelAction?()
         })

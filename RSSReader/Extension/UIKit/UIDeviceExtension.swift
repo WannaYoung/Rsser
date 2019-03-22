@@ -54,6 +54,11 @@ extension UIDevice {
         return UIApplication.shared.statusBarFrame.height+44.0
     }
     
+    // Xd底栏高度
+    public static var actionBarHeight: CGFloat {
+        return isIphoneX ? 34.0 : 0.0
+    }
+    
     // 当前屏幕方向
     public static var deviceOrientation: UIDeviceOrientation {
         return current.orientation
@@ -87,4 +92,12 @@ extension UIDevice  {
         return height/width > 16.5/9
     }
     
+}
+
+extension UIDevice  {
+    public class func impactWith(style: UIImpactFeedbackGenerator.FeedbackStyle) {
+        let impactFeedBack = UIImpactFeedbackGenerator(style: style)
+        impactFeedBack.prepare()
+        impactFeedBack.impactOccurred()
+    }
 }

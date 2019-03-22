@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cIn-s1-IC8" userLabel="Card View" customClass="AddFeedView" customModule="RSSReader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="260"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhx-ca-BpX" userLabel="Background view" customClass="CornerRoundingView" customModule="SwiftMessages">
+                    <rect key="frame" x="15" y="10" width="345" height="150"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="添加订阅源" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3AL-n6-jFi">
+                            <rect key="frame" x="20" y="20" width="120" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="2QW-nm-ace"/>
+                                <constraint firstAttribute="width" constant="120" id="ZpN-hQ-ezl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.14117647059999999" green="0.16078431369999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDf-wM-bJf">
+                            <rect key="frame" x="270" y="20" width="65" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="65" id="bxk-kE-Qv1"/>
+                                <constraint firstAttribute="height" constant="40" id="f91-1r-Epd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <state key="normal" title="添加">
+                                <color key="titleColor" red="0.99607843139999996" green="0.82352941180000006" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="addFeed:" destination="-2" eventType="touchUpInside" id="dNd-Oo-HNf"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="订阅源地址" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="OqP-5L-suD">
+                            <rect key="frame" x="20" y="75" width="305" height="40"/>
+                            <color key="backgroundColor" red="0.91372549020000005" green="0.91764705879999997" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="3KN-fE-E1z"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="URL"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="OqP-5L-suD" firstAttribute="leading" secondItem="hhx-ca-BpX" secondAttribute="leading" constant="20" id="4l5-nY-0Fd"/>
+                        <constraint firstAttribute="height" constant="150" id="7nQ-AC-sXy"/>
+                        <constraint firstItem="3AL-n6-jFi" firstAttribute="top" secondItem="hhx-ca-BpX" secondAttribute="top" constant="20" id="B2D-Ai-IhY"/>
+                        <constraint firstItem="cDf-wM-bJf" firstAttribute="top" secondItem="hhx-ca-BpX" secondAttribute="top" constant="20" id="FCb-RY-j6l"/>
+                        <constraint firstItem="OqP-5L-suD" firstAttribute="top" secondItem="3AL-n6-jFi" secondAttribute="bottom" constant="15" id="cPb-eo-tCW"/>
+                        <constraint firstAttribute="trailing" secondItem="OqP-5L-suD" secondAttribute="trailing" constant="20" id="gaY-dS-8v8"/>
+                        <constraint firstItem="3AL-n6-jFi" firstAttribute="leading" secondItem="hhx-ca-BpX" secondAttribute="leading" constant="20" id="h68-iv-Yso"/>
+                        <constraint firstAttribute="trailing" secondItem="cDf-wM-bJf" secondAttribute="trailing" constant="10" id="sjq-rQ-asg"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Wt-fy-8qR">
+                    <rect key="frame" x="0.0" y="160" width="375" height="100"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <action selector="closeAddFeed:" destination="-2" eventType="touchUpInside" id="25H-yV-sdC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9Wt-fy-8qR" firstAttribute="bottom" secondItem="y4h-T4-RTf" secondAttribute="bottom" id="Bag-3q-Sz1"/>
+                <constraint firstItem="y4h-T4-RTf" firstAttribute="trailing" secondItem="hhx-ca-BpX" secondAttribute="trailing" constant="15" id="NDK-zo-hr8"/>
+                <constraint firstItem="hhx-ca-BpX" firstAttribute="top" secondItem="y4h-T4-RTf" secondAttribute="top" constant="10" id="aZI-i0-ypy"/>
+                <constraint firstItem="9Wt-fy-8qR" firstAttribute="trailing" secondItem="y4h-T4-RTf" secondAttribute="trailing" id="fI4-yh-pIL"/>
+                <constraint firstItem="hhx-ca-BpX" firstAttribute="leading" secondItem="y4h-T4-RTf" secondAttribute="leading" constant="15" id="hno-Kl-2tR"/>
+                <constraint firstItem="9Wt-fy-8qR" firstAttribute="top" secondItem="hhx-ca-BpX" secondAttribute="bottom" id="pJb-fI-rAa"/>
+                <constraint firstItem="9Wt-fy-8qR" firstAttribute="leading" secondItem="y4h-T4-RTf" secondAttribute="leading" id="r7W-Qa-YiH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="y4h-T4-RTf"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="bounceAnimationOffset">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="rssLinkTF" destination="OqP-5L-suD" id="UDZ-Or-ZZv"/>
+            </connections>
+            <point key="canvasLocation" x="580" y="497.45127436281865"/>
+        </view>
+    </objects>
+</document>

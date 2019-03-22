@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftMessages
 
 class SettingController: UITableViewController {
 
@@ -19,5 +20,6 @@ class SettingController: UITableViewController {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
-
+    
+    
 }
