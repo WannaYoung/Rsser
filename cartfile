@@ -3,6 +3,8 @@ github "3lvis/Networking" ~> 4.4
 github "onevcat/Kingfisher" ~> 5.0
 github "alibaba/HandyJSON" ~> 4.2.0
 github "nmdias/FeedKit" ~> 8.0
-github "realm/realm-cocoa"
+github "amosavian/FileProvider"
+# github "realm/realm-cocoa"
 github "SwipeCellKit/SwipeCellKit"
 github "SwiftKickMobile/SwiftMessages"
+github "suzuki-0000/SKPhotoBrowser"
