@@ -11,9 +11,7 @@
 		2F2A88992240E32D00C8A368 /* FeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A88982240E32D00C8A368 /* FeedManager.swift */; };
 		2F2A889B2240F6C200C8A368 /* FeedTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A889A2240F6C200C8A368 /* FeedTool.swift */; };
 		2F2A889D2241033500C8A368 /* ArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A889C2241033500C8A368 /* ArticleListController.swift */; };
-		2F524C01223B5BCA006F5C10 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F524C00223B5BC9006F5C10 /* SwiftMessages.framework */; };
 		2F524C0B223B9DD1006F5C10 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F524C0A223B9DD1006F5C10 /* SettingController.swift */; };
-		2F5F1C4A224A13800079222C /* SKPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5F1C49224A13800079222C /* SKPhotoBrowser.framework */; };
 		2F610153224338D2006C8379 /* ShareTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F610152224338D2006C8379 /* ShareTool.swift */; };
 		2F61015522435D88006C8379 /* RenameFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F61015422435D88006C8379 /* RenameFeedView.swift */; };
 		2F61015722435D93006C8379 /* RenameFeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F61015622435D93006C8379 /* RenameFeedView.xib */; };
@@ -57,7 +55,6 @@
 		2F71542722420158000C7B8D /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7153FF22420158000C7B8D /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
 		2F71542822420158000C7B8D /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71540022420158000C7B8D /* NVActivityIndicatorAnimationOrbit.swift */; };
 		2F71542922420158000C7B8D /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71540122420158000C7B8D /* SwiftNotice.swift */; };
-		2F71542C2242153D000C7B8D /* SwipeCellKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F71542B2242153D000C7B8D /* SwipeCellKit.framework */; };
 		2F71542F22422ED1000C7B8D /* PreferenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71542E22422ED1000C7B8D /* PreferenceController.swift */; };
 		2F71543122423C8B000C7B8D /* AuthIDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71543022423C8B000C7B8D /* AuthIDController.swift */; };
 		2F77C9B622409D5E0051872E /* MyFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77C9B522409D5E0051872E /* MyFeed.swift */; };
@@ -100,25 +97,26 @@
 		2F8F055B223A47E800F36F93 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F0521223A47E800F36F93 /* StringExtension.swift */; };
 		2F8F055C223A47E800F36F93 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F0522223A47E800F36F93 /* DictionaryExtension.swift */; };
 		2F8F055D223A47E800F36F93 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F0523223A47E800F36F93 /* DateExtension.swift */; };
-		2F8F056E223A501200F36F93 /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F056C223A501200F36F93 /* FeedKit.framework */; };
-		2F8F056F223A501200F36F93 /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F056D223A501200F36F93 /* HandyJSON.framework */; };
-		2F8F0574223A502600F36F93 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F0571223A502600F36F93 /* Networking.framework */; };
-		2F8F0575223A502600F36F93 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F0572223A502600F36F93 /* Kingfisher.framework */; };
 		2F8F057C223A507500F36F93 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F057B223A507500F36F93 /* HomeController.swift */; };
 		2F8F057E223A5E2400F36F93 /* FeedMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F057D223A5E2400F36F93 /* FeedMenuController.swift */; };
 		2F8F0580223A6C6900F36F93 /* AddFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F057F223A6C6900F36F93 /* AddFeedCell.swift */; };
-		2F924388224CACD600A847C7 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F0570223A502600F36F93 /* SnapKit.framework */; };
 		2FA17A1E2248C76200F7B608 /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA17A1D2248C76200F7B608 /* WebController.swift */; };
 		2FAAC2D6223BBC2C00848970 /* ArticleReaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAAC2D5223BBC2C00848970 /* ArticleReaderController.swift */; };
 		2FC37C94225321A2004D3B3A /* DTCoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77D11D225313B400DCC0C8 /* DTCoreText.framework */; };
 		2FC37C95225321A2004D3B3A /* DTCoreText.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77D11D225313B400DCC0C8 /* DTCoreText.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2FC37C96225321A2004D3B3A /* DTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77D11E225313B400DCC0C8 /* DTFoundation.framework */; };
 		2FC37C97225321A2004D3B3A /* DTFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77D11E225313B400DCC0C8 /* DTFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2FC37C98225321A2004D3B3A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77D11F225313B400DCC0C8 /* Realm.framework */; };
-		2FC37C99225321A2004D3B3A /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77D11F225313B400DCC0C8 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2FC37C9A225321A2004D3B3A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77D11C225313B400DCC0C8 /* RealmSwift.framework */; };
-		2FC37C9B225321A2004D3B3A /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77D11C225313B400DCC0C8 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2FC37CA022534C20004D3B3A /* FilesProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37C9F22534C20004D3B3A /* FilesProvider.framework */; };
+		2FC37CAF22546E65004D3B3A /* SwipeCellKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37CA522546E64004D3B3A /* SwipeCellKit.framework */; };
+		2FC37CB022546E65004D3B3A /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37CA622546E64004D3B3A /* HandyJSON.framework */; };
+		2FC37CB122546E65004D3B3A /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37CA722546E64004D3B3A /* Networking.framework */; };
+		2FC37CB222546E65004D3B3A /* SKPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37CA822546E64004D3B3A /* SKPhotoBrowser.framework */; };
+		2FC37CB322546E65004D3B3A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37CA922546E65004D3B3A /* RealmSwift.framework */; };
+		2FC37CB422546E65004D3B3A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37CAA22546E65004D3B3A /* Realm.framework */; };
+		2FC37CB522546E65004D3B3A /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37CAB22546E65004D3B3A /* Kingfisher.framework */; };
+		2FC37CB622546E65004D3B3A /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37CAC22546E65004D3B3A /* FeedKit.framework */; };
+		2FC37CB722546E65004D3B3A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37CAD22546E65004D3B3A /* SnapKit.framework */; };
+		2FC37CB822546E65004D3B3A /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC37CAE22546E65004D3B3A /* SwiftMessages.framework */; };
 		2FCCA1D822437A1200CF321B /* AddFoldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCCA1D722437A1200CF321B /* AddFoldView.swift */; };
 		2FCCA1DA22437A1F00CF321B /* AddFoldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCA1D922437A1F00CF321B /* AddFoldView.xib */; };
 		2FCCA1DC224388D000CF321B /* FoldListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCCA1DB224388D000CF321B /* FoldListView.swift */; };
@@ -132,9 +130,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2FC37C99225321A2004D3B3A /* Realm.framework in Embed Frameworks */,
 				2FC37C95225321A2004D3B3A /* DTCoreText.framework in Embed Frameworks */,
-				2FC37C9B225321A2004D3B3A /* RealmSwift.framework in Embed Frameworks */,
 				2FC37C97225321A2004D3B3A /* DTFoundation.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -147,9 +143,7 @@
 		2F2A88982240E32D00C8A368 /* FeedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedManager.swift; sourceTree = "<group>"; };
 		2F2A889A2240F6C200C8A368 /* FeedTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTool.swift; sourceTree = "<group>"; };
 		2F2A889C2241033500C8A368 /* ArticleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListController.swift; sourceTree = "<group>"; };
-		2F524C00223B5BC9006F5C10 /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMessages.framework; path = Rsser/Frameworks/SwiftMessages.framework; sourceTree = SOURCE_ROOT; };
 		2F524C0A223B9DD1006F5C10 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
-		2F5F1C49224A13800079222C /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SKPhotoBrowser.framework; path = Rsser/Frameworks/SKPhotoBrowser.framework; sourceTree = SOURCE_ROOT; };
 		2F610152224338D2006C8379 /* ShareTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTool.swift; sourceTree = "<group>"; };
 		2F61015422435D88006C8379 /* RenameFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameFeedView.swift; sourceTree = "<group>"; };
 		2F61015622435D93006C8379 /* RenameFeedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RenameFeedView.xib; sourceTree = "<group>"; };
@@ -193,17 +187,14 @@
 		2F7153FF22420158000C7B8D /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
 		2F71540022420158000C7B8D /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
 		2F71540122420158000C7B8D /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
-		2F71542B2242153D000C7B8D /* SwipeCellKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwipeCellKit.framework; path = Rsser/Frameworks/SwipeCellKit.framework; sourceTree = SOURCE_ROOT; };
 		2F71542E22422ED1000C7B8D /* PreferenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceController.swift; sourceTree = "<group>"; };
 		2F71543022423C8B000C7B8D /* AuthIDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthIDController.swift; sourceTree = "<group>"; };
 		2F77C9B522409D5E0051872E /* MyFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFeed.swift; sourceTree = "<group>"; };
 		2F77C9B822409F440051872E /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
 		2F77C9BB2240B1220051872E /* AddFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedView.swift; sourceTree = "<group>"; };
 		2F77C9BD2240B1330051872E /* AddFeedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddFeedView.xib; sourceTree = "<group>"; };
-		2F77D11C225313B400DCC0C8 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		2F77D11D225313B400DCC0C8 /* DTCoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTCoreText.framework; sourceTree = "<group>"; };
 		2F77D11E225313B400DCC0C8 /* DTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTFoundation.framework; sourceTree = "<group>"; };
-		2F77D11F225313B400DCC0C8 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		2F8F04C2223A46DE00F36F93 /* Rsser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rsser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8F04C5223A46DE00F36F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F8F04CA223A46DE00F36F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -242,11 +233,6 @@
 		2F8F0521223A47E800F36F93 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		2F8F0522223A47E800F36F93 /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		2F8F0523223A47E800F36F93 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
-		2F8F056C223A501200F36F93 /* FeedKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FeedKit.framework; path = Rsser/Frameworks/FeedKit.framework; sourceTree = SOURCE_ROOT; };
-		2F8F056D223A501200F36F93 /* HandyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandyJSON.framework; path = Rsser/Frameworks/HandyJSON.framework; sourceTree = SOURCE_ROOT; };
-		2F8F0570223A502600F36F93 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Rsser/Frameworks/SnapKit.framework; sourceTree = SOURCE_ROOT; };
-		2F8F0571223A502600F36F93 /* Networking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Networking.framework; path = Rsser/Frameworks/Networking.framework; sourceTree = SOURCE_ROOT; };
-		2F8F0572223A502600F36F93 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Rsser/Frameworks/Kingfisher.framework; sourceTree = SOURCE_ROOT; };
 		2F8F057B223A507500F36F93 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		2F8F057D223A5E2400F36F93 /* FeedMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedMenuController.swift; sourceTree = "<group>"; };
 		2F8F057F223A6C6900F36F93 /* AddFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedCell.swift; sourceTree = "<group>"; };
@@ -254,6 +240,16 @@
 		2FAAC2D5223BBC2C00848970 /* ArticleReaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleReaderController.swift; sourceTree = "<group>"; };
 		2FC37C9C225321FD004D3B3A /* Rsser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rsser.entitlements; sourceTree = "<group>"; };
 		2FC37C9F22534C20004D3B3A /* FilesProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FilesProvider.framework; path = Carthage/Build/iOS/FilesProvider.framework; sourceTree = SOURCE_ROOT; };
+		2FC37CA522546E64004D3B3A /* SwipeCellKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwipeCellKit.framework; path = Carthage/Build/iOS/SwipeCellKit.framework; sourceTree = SOURCE_ROOT; };
+		2FC37CA622546E64004D3B3A /* HandyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandyJSON.framework; path = Carthage/Build/iOS/HandyJSON.framework; sourceTree = SOURCE_ROOT; };
+		2FC37CA722546E64004D3B3A /* Networking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Networking.framework; path = Carthage/Build/iOS/Networking.framework; sourceTree = SOURCE_ROOT; };
+		2FC37CA822546E64004D3B3A /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SKPhotoBrowser.framework; path = Carthage/Build/iOS/SKPhotoBrowser.framework; sourceTree = SOURCE_ROOT; };
+		2FC37CA922546E65004D3B3A /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = SOURCE_ROOT; };
+		2FC37CAA22546E65004D3B3A /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = SOURCE_ROOT; };
+		2FC37CAB22546E65004D3B3A /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = SOURCE_ROOT; };
+		2FC37CAC22546E65004D3B3A /* FeedKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FeedKit.framework; path = Carthage/Build/iOS/FeedKit.framework; sourceTree = SOURCE_ROOT; };
+		2FC37CAD22546E65004D3B3A /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
+		2FC37CAE22546E65004D3B3A /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMessages.framework; path = Carthage/Build/iOS/SwiftMessages.framework; sourceTree = SOURCE_ROOT; };
 		2FCCA1D722437A1200CF321B /* AddFoldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoldView.swift; sourceTree = "<group>"; };
 		2FCCA1D922437A1F00CF321B /* AddFoldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddFoldView.xib; sourceTree = "<group>"; };
 		2FCCA1DB224388D000CF321B /* FoldListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldListView.swift; sourceTree = "<group>"; };
@@ -265,19 +261,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC37CAF22546E65004D3B3A /* SwipeCellKit.framework in Frameworks */,
+				2FC37CB022546E65004D3B3A /* HandyJSON.framework in Frameworks */,
+				2FC37CB122546E65004D3B3A /* Networking.framework in Frameworks */,
+				2FC37CB222546E65004D3B3A /* SKPhotoBrowser.framework in Frameworks */,
+				2FC37CB322546E65004D3B3A /* RealmSwift.framework in Frameworks */,
+				2FC37CB422546E65004D3B3A /* Realm.framework in Frameworks */,
+				2FC37CB522546E65004D3B3A /* Kingfisher.framework in Frameworks */,
+				2FC37CB622546E65004D3B3A /* FeedKit.framework in Frameworks */,
+				2FC37CB722546E65004D3B3A /* SnapKit.framework in Frameworks */,
+				2FC37CB822546E65004D3B3A /* SwiftMessages.framework in Frameworks */,
 				2FC37CA022534C20004D3B3A /* FilesProvider.framework in Frameworks */,
-				2F924388224CACD600A847C7 /* SnapKit.framework in Frameworks */,
 				2FC37C94225321A2004D3B3A /* DTCoreText.framework in Frameworks */,
-				2F5F1C4A224A13800079222C /* SKPhotoBrowser.framework in Frameworks */,
-				2F71542C2242153D000C7B8D /* SwipeCellKit.framework in Frameworks */,
-				2F524C01223B5BCA006F5C10 /* SwiftMessages.framework in Frameworks */,
-				2F8F0574223A502600F36F93 /* Networking.framework in Frameworks */,
-				2F8F0575223A502600F36F93 /* Kingfisher.framework in Frameworks */,
-				2FC37C98225321A2004D3B3A /* Realm.framework in Frameworks */,
-				2F8F056E223A501200F36F93 /* FeedKit.framework in Frameworks */,
 				2FC37C96225321A2004D3B3A /* DTFoundation.framework in Frameworks */,
-				2F8F056F223A501200F36F93 /* HandyJSON.framework in Frameworks */,
-				2FC37C9A225321A2004D3B3A /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,19 +369,19 @@
 		2F77D11B225313B400DCC0C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FC37CAC22546E65004D3B3A /* FeedKit.framework */,
+				2FC37CA622546E64004D3B3A /* HandyJSON.framework */,
+				2FC37CAB22546E65004D3B3A /* Kingfisher.framework */,
+				2FC37CA722546E64004D3B3A /* Networking.framework */,
+				2FC37CAA22546E65004D3B3A /* Realm.framework */,
+				2FC37CA922546E65004D3B3A /* RealmSwift.framework */,
+				2FC37CA822546E64004D3B3A /* SKPhotoBrowser.framework */,
+				2FC37CAD22546E65004D3B3A /* SnapKit.framework */,
+				2FC37CAE22546E65004D3B3A /* SwiftMessages.framework */,
+				2FC37CA522546E64004D3B3A /* SwipeCellKit.framework */,
 				2FC37C9F22534C20004D3B3A /* FilesProvider.framework */,
 				2F77D11D225313B400DCC0C8 /* DTCoreText.framework */,
 				2F77D11E225313B400DCC0C8 /* DTFoundation.framework */,
-				2F77D11F225313B400DCC0C8 /* Realm.framework */,
-				2F8F0570223A502600F36F93 /* SnapKit.framework */,
-				2F8F056C223A501200F36F93 /* FeedKit.framework */,
-				2F8F0572223A502600F36F93 /* Kingfisher.framework */,
-				2F8F0571223A502600F36F93 /* Networking.framework */,
-				2F8F056D223A501200F36F93 /* HandyJSON.framework */,
-				2F5F1C49224A13800079222C /* SKPhotoBrowser.framework */,
-				2F71542B2242153D000C7B8D /* SwipeCellKit.framework */,
-				2F524C00223B5BC9006F5C10 /* SwiftMessages.framework */,
-				2F77D11C225313B400DCC0C8 /* RealmSwift.framework */,
 			);
 			name = Frameworks;
 			path = Rsser/Frameworks;
@@ -711,6 +707,8 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SwipeCellKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SKPhotoBrowser.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FilesProvider.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
 			);
 			outputFileListPaths = (
 			);
